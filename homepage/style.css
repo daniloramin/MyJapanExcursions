@@ -11,8 +11,18 @@ header#homepage-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  background-color: white;
 }
 
 header#homepage-header div.links a {
   margin-left: 1rem;
+}
+
+body{
+  background-image: url(Imagens/moiz-k-malik-68aXi4RVhMQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: fixed;
+  background-size: cover;
 }
