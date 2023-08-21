@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: Assassin Ninja;
+    src: url(Fontes/aAssassinNinja.otf);
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,6 +12,38 @@
 
 header{
     height: 550px;
-    background-image: url(Imagens/finan-akbar-HuC3cii5VA8-unsplash.jpg);
+    background-image: url(Imagens/fuji.jpg);
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#header-menu{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#links a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+div#links{
+
+}
+
+h1{
+    font-family: Assassin Ninja;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img#logo{
+    
 }
