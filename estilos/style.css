@@ -63,7 +63,7 @@ main{
     border-bottom-right-radius: 10px;
 }
 
-main a{
+main a.planejamento{
     display: inline-block;
     text-decoration: none;
     width: 200px;
@@ -72,7 +72,8 @@ main a{
     border: 1px solid rgb(233, 231, 231);
     border-radius: 5%;
     box-shadow: 0px 1px 1px rgb(201, 201, 201);
-    margin: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 main h1{
@@ -97,6 +98,7 @@ div#mala{
     height: 90px;
     background-repeat: no-repeat;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 div#trem{
@@ -105,5 +107,41 @@ div#trem{
     height: 90px;
     background-repeat: no-repeat;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
+div#apartamento{
+    background-image: url(../Imagens/apartamento.png);
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div#roteiro{
+    background-image: url(../Imagens/roteiro.png);
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div#tour{
+    background-image: url(../Imagens/tour.png);
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div#etiqueta{
+    background-image: url(../Imagens/etiqueta.png);
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 10px;
+}
