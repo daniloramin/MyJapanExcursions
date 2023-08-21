@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Assassin Ninja;
-    src: url(Fontes/aAssassinNinja.otf);
+    src: url(../Fontes/aAssassinNinja.otf);
 }
 
 *{
@@ -11,9 +11,9 @@
 }
 
 header{
-    height: 550px;
-    background-image: url(Imagens/fuji.jpg);
-    background-position: center center;
+    height: 600px;
+    background-image: url(../Imagens/MJE1.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,6 +25,12 @@ div#header-menu{
     align-items: center;
 }
 
+div#header-menu h1{
+    font-family: Assassin Ninja;
+    color: white;
+    margin-left: 5%;
+}
+
 div#links a{
     color: white;
     text-decoration: none;
@@ -33,11 +39,7 @@ div#links a{
 }
 
 div#links{
-
-}
-
-h1{
-    font-family: Assassin Ninja;
+    margin-right: 10%;
 }
 
 body{
@@ -45,5 +47,6 @@ body{
 }
 
 img#logo{
-    
+    margin-top: 90px;
+    margin-left: 68%;
 }
