@@ -72,29 +72,31 @@ main a.planejamento{
     display: inline-block;
     text-decoration: none;
     width: 200px;
-    height: 200px;
+    height: 180px;
     color: black;
     border: 1px solid rgb(233, 231, 231);
     border-radius: 5%;
     box-shadow: 0px 1px 1px rgb(201, 201, 201);
     margin-top: 20px;
     margin-right: 20px;
+
 }
 
 main h1{
     font-size: 30px;
     padding-top: 20px;
-    padding-bottom: 40px;
 }
 
 a h2{
     margin-left: 10px;
+    font-weight: bolder;
 }
 
 a p{
     margin-left: 10px;
     color: lightslategray;
     padding-top: 5px;
+    font-weight: bold;
 }
 
 div#mala{
@@ -165,4 +167,24 @@ div.veja-mais a{
     color: black;
     text-decoration: none;
     font-weight: bolder;
+}
+
+main a{
+    text-decoration: none;
+}
+
+div.interesses{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.253);
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: white;
+    
+}
+
+div#comida{
+    background-image: url(../Imagens/sushi.jpg);
 }
