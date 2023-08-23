@@ -11,8 +11,8 @@
 }
 
 header{
-    height: 600px;
-    background-image: url(../Imagens/MJE1.jpg);
+    height: 500px;
+    background-image: url(../Imagens/pexels-francesco-ungaro-96422.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,6 +29,7 @@ div#header-menu h1{
     font-family: Assassin Ninja;
     color: white;
     margin-left: 5%;
+    font-size: 3em;
 }
 
 div#links a{
@@ -37,6 +38,7 @@ div#links a{
     padding: 30px;
     font-weight: bolder;
     transition-duration: 0.5s;
+    font-size: 20px;
 }
 
 div#links a:hover{
@@ -52,8 +54,11 @@ body{
 }
 
 img#logo{
-    margin-top: 90px;
-    margin-left: 68%;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    height: 200px;
 }
 
 main{
@@ -63,12 +68,9 @@ main{
     margin: auto;
     margin-bottom: 40px;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
-main a.planejamento{
+main a.widget{
     display: inline-block;
     text-decoration: none;
     width: 200px;
@@ -76,10 +78,9 @@ main a.planejamento{
     color: black;
     border: 1px solid rgb(233, 231, 231);
     border-radius: 5%;
-    box-shadow: 0px 1px 1px rgb(201, 201, 201);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.26);
     margin-top: 20px;
     margin-right: 20px;
-
 }
 
 main h1{
@@ -100,7 +101,7 @@ a p{
 }
 
 div#mala{
-    background-image: url(../Imagens/mala.png);
+    background-image: url(../icons/mala.png);
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
@@ -109,7 +110,7 @@ div#mala{
 }
 
 div#trem{
-    background-image: url(../Imagens/trem.png);
+    background-image: url(../icons/trem.png);
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
@@ -118,7 +119,7 @@ div#trem{
 }
 
 div#apartamento{
-    background-image: url(../Imagens/apartamento.png);
+    background-image: url(../icons/apartamento.png);
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
@@ -127,7 +128,7 @@ div#apartamento{
 }
 
 div#roteiro{
-    background-image: url(../Imagens/roteiro.png);
+    background-image: url(../icons/roteiro.png);
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
@@ -136,7 +137,7 @@ div#roteiro{
 }
 
 div#tour{
-    background-image: url(../Imagens/tour.png);
+    background-image: url(../icons/tour.png);
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
@@ -145,7 +146,7 @@ div#tour{
 }
 
 div#etiqueta{
-    background-image: url(../Imagens/etiqueta.png);
+    background-image: url(../icons/etiqueta.png);
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
@@ -153,38 +154,37 @@ div#etiqueta{
     margin-left: 10px;
 }
 
-div.veja-mais{
+main button.veja-mais{
     border: 1px solid rgb(197, 196, 196);
     padding: 10px;
     width: 130px;
     text-align: center;
     border-radius: 15px;
     margin-top: 20px;
-    margin-left: 250px;
+    margin-left: 260px;
+    background-color: white;
 }
 
-div.veja-mais a{
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-main a{
-    text-decoration: none;
-}
-
-div.interesses{
-    width: 200px;
-    height: 150px;
-    border-radius: 10px;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.253);
-    display: inline-block;
-    margin-right: 20px;
-    margin-top: 20px;
-    color: white;
-    
-}
-
-div#comida{
+main a#comida{
     background-image: url(../Imagens/sushi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main a#templo{
+    background-image: url(../Imagens/templo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main a#santuario{
+    background-image: url(../Imagens/santuario.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main a#castelo{
+    background-image: url(../Imagens/castelo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
