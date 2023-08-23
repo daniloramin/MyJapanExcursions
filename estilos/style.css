@@ -12,7 +12,7 @@
 
 header{
     height: 500px;
-    background-image: url(../Imagens/pexels-francesco-ungaro-96422.jpg);
+    background-image: url(../Imagens/breakify-wNu4sikUPkg-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,17 +70,29 @@ main{
     padding: 20px;
 }
 
-main a.widget{
+main a.planejamento{
     display: inline-block;
     text-decoration: none;
-    width: 200px;
-    height: 180px;
+    width: 250px;
+    height: 210px;
     color: black;
-    border: 1px solid rgb(233, 231, 231);
+    border: 1px solid rgba(233, 231, 231, 0.466);
     border-radius: 5%;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.26);
     margin-top: 20px;
     margin-right: 20px;
+}
+
+main a.interesses{
+    display: inline-block;
+    text-decoration: none;
+    width: 250px;
+    height: 160px;
+    color: black;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.267);
 }
 
 main h1{
@@ -89,15 +101,17 @@ main h1{
 }
 
 a h2{
-    margin-left: 10px;
     font-weight: bolder;
+    padding-left: 10px;
+    padding-top: 23px;
 }
 
 a p{
-    margin-left: 10px;
-    color: lightslategray;
     padding-top: 5px;
+    padding-left: 10px;
+    color: lightslategray;
     font-weight: bold;
+    width: 200px;
 }
 
 div#mala{
@@ -155,36 +169,68 @@ div#etiqueta{
 }
 
 main button.veja-mais{
-    border: 1px solid rgb(197, 196, 196);
+    border: 1px solid rgba(236, 235, 235, 0.986);
     padding: 10px;
     width: 130px;
     text-align: center;
     border-radius: 15px;
     margin-top: 20px;
-    margin-left: 260px;
+    margin-left: 340px;
     background-color: white;
+    font-weight: bold;
 }
 
 main a#comida{
-    background-image: url(../Imagens/sushi.jpg);
+    background-image: url(https://images.unsplash.com/photo-1623341214825-9f4f963727da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 main a#templo{
-    background-image: url(../Imagens/templo.jpg);
+    background-image: url(https://images.unsplash.com/photo-1580355275559-10c832e123f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 main a#santuario{
-    background-image: url(../Imagens/santuario.jpg);
+    background-image: url(https://images.unsplash.com/photo-1588046218895-bff5984998b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 main a#castelo{
-    background-image: url(../Imagens/castelo.jpg);
+    background-image: url(https://images.unsplash.com/photo-1539879925707-ada7a006960c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main a#fontes{
+    background-image: url(https://images.unsplash.com/photo-1644413638617-02369c89c156?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main a#trilha{
+    background-image: url(https://images.unsplash.com/photo-1680699641420-ea6fc0e54889?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main a#cerejeira{
+    background-image: url(https://images.unsplash.com/photo-1500214751256-2edf09198988?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main a#outono{
+    background-image: url(https://images.unsplash.com/photo-1613967193490-1d17b930c1a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main a#neve{
+    background-image: url(https://images.unsplash.com/photo-1610623757335-bd87c6db4bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80);
     background-repeat: no-repeat;
     background-size: cover;
 }
