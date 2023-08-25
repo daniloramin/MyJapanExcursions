@@ -11,7 +11,7 @@
 }
 
 header{
-    height: 500px;
+    height: 600px;
     background-image: url(../Imagens/breakify-wNu4sikUPkg-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -63,14 +63,14 @@ img#logo{
 
 main{
     background-color: white;
-    min-width: 300px;
+    min-width: 900px;
     max-width: 1300px;
     margin: auto;
     margin-bottom: 40px;
     padding: 20px;
 }
 
-main a.planejamento{
+section#planejamento a{
     display: inline-block;
     text-decoration: none;
     width: 250px;
@@ -83,7 +83,7 @@ main a.planejamento{
     margin-right: 20px;
 }
 
-main a.interesses{
+section#interesses a{
     display: inline-block;
     text-decoration: none;
     width: 250px;
@@ -100,10 +100,18 @@ main h1{
     padding-top: 20px;
 }
 
-a h2{
+section#planejamento a h2{
     font-weight: bolder;
     padding-left: 10px;
-    padding-top: 23px;
+    padding-top: 10px;
+}
+
+section#interesses a h2{
+    color: white;
+    position: absolute;
+    margin-top: 122px;
+    margin-left: 10px;
+    font-size: 22px;
 }
 
 a p{
@@ -119,7 +127,7 @@ div#mala{
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 10px;
 }
 
@@ -128,8 +136,8 @@ div#trem{
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 15px;
+    margin-left: 12px;
 }
 
 div#apartamento{
@@ -137,8 +145,8 @@ div#apartamento{
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 15px;
+    margin-left: 12px;
 }
 
 div#roteiro{
@@ -146,8 +154,8 @@ div#roteiro{
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 15px;
+    margin-left: 12px;
 }
 
 div#tour{
@@ -155,8 +163,8 @@ div#tour{
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 15px;
+    margin-left: 12px;
 }
 
 div#etiqueta{
@@ -164,8 +172,8 @@ div#etiqueta{
     width: 90px;
     height: 90px;
     background-repeat: no-repeat;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 15px;
+    margin-left: 12px;
 }
 
 main button.veja-mais{
@@ -234,3 +242,4 @@ main a#neve{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
